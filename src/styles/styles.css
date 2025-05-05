@@ -1,0 +1,41 @@
+/* src/styles/styles.css */
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .app {
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  
+  #scroll-box {
+    height: 150px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .output {
+    margin-top: 0.5rem;
+    font-family: monospace;
+  }
+  
+  button {
+    margin-bottom: 2rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+  
