@@ -1,3 +1,63 @@
+# Debounce vs Throttle – React + TypeScript Demo
+
+This is a simple frontend project demonstrating the difference between debounce and throttle using React and Typescript.
+
+## Concepts
+- Debounce: Ensures a function is only called after a certain delay has passed since the last time it was invoked.
+- Throttle: Ensures a function is called at most once in a specified time interval, no matter how many times the event is triggered.
+
+### Use Cases
+- Debounce: Searching or filtering as you type, to avoid sending too many requests.
+- Throttle: Handling scroll or resize events efficiently.
+
+## Tech Stack
+
+- React 19
+- TypeScript
+- Vite
+- Custom hooks (`useDebounce`, `useThrottle`)
+- CSS variables and theming
+
+## Folder Structure
+
+src/
+├── components/ # Reusable UI components
+│ ├── DebounceInput.tsx
+│ ├── ScrollBox.tsx
+│ └── ThemeToggle.tsx
+│
+├── hooks/ # Custom hooks
+│ ├── useDebounce.ts
+│ └── useThrottle.ts
+│
+├── styles/ # CSS styles
+│ ├── colors-variables.css
+│ └── styles.css
+│
+├── App.tsx # Main app container
+└── main.tsx # Entry point
+
+## How to run
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/your-username/debounce-throttle-demo.git
+cd debounce-throttle-demo
+```
+### 2. Install dependencies
+```bash
+npm install
+```
+### 3. Start the dev server
+```bash
+npm run dev
+```
+
+***The app will be available at http://localhost:5173
+
+
+---
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
